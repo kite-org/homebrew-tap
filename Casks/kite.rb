@@ -1,4 +1,4 @@
-cask "kite-desktop" do
+cask "kite" do
   version "0.17.0"
   sha256 "c1dbea920a1a98ff260298c6e8d4663c0ea460c2c13fabdec8530dc874fe3896"
 

@@ -7,7 +7,7 @@ Kite Desktop is currently in **beta**. The macOS app requires Apple Silicon and 
 ## Install
 
 ```sh
-brew install --cask kite-org/tap/kite-desktop
+brew install --cask kite-org/tap/kite
 ```
 
 Homebrew downloads the published DMG, verifies its SHA256, and installs `Kite.app` into `/Applications`.
@@ -26,17 +26,17 @@ Use **Check for Updates** in Kite, or update with Homebrew:
 
 ```sh
 brew update
-brew upgrade --cask --greedy kite-org/tap/kite-desktop
+brew upgrade --cask --greedy kite-org/tap/kite
 ```
 
 ## Uninstall
 
 ```sh
-brew uninstall --cask kite-org/tap/kite-desktop
+brew uninstall --cask kite-org/tap/kite
 ```
 
 Uninstalling the app preserves its settings and cluster configurations.
 
 ## Maintaining the cask
 
-After a release is published, update `version` and `sha256` in `Casks/kite-desktop.rb` using the published `kite-darwin-arm64.dmg`. Keep the download URL pinned to the release tag.
+After a release is published, update `version` and `sha256` in `Casks/kite.rb` using the published `kite-darwin-arm64.dmg`. Keep the download URL pinned to the release tag.
