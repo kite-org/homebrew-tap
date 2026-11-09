@@ -15,7 +15,7 @@ cask "kite-desktop" do
 
   caveats <<~EOS
     Kite Desktop is in beta and is not yet signed with an Apple Developer ID or notarized.
-    For macOS first-launch instructions, see:
-      https://github.com/kite-org/kite/releases/tag/v#{version}
+    If macOS blocks the first launch, run:
+      xattr -dr com.apple.quarantine "#{appdir}/Kite.app"
   EOS
 end
