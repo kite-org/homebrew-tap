@@ -1,6 +1,6 @@
 cask "kite" do
-  version "0.17.0"
-  sha256 "c1dbea920a1a98ff260298c6e8d4663c0ea460c2c13fabdec8530dc874fe3896"
+  version "0.18.0"
+  sha256 "1e07396443d3f7425ab00e3d532e2f34738338b989e1f5a85f281bd42aca4e59"
 
   url "https://github.com/kite-org/kite/releases/download/v#{version}/kite-darwin-arm64.dmg"
   name "Kite"
